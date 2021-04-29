@@ -1,0 +1,2 @@
+add_executable(settingreader_test SettingReader/SettingReader_test.cpp)
+target_link_libraries(settingreader_test nekorpc_libs_settingreader)
